@@ -1,0 +1,91 @@
+@font-face {
+    font-family: NotoSansKR-Light;
+    src: url("font/NotoSansKR-Light.otf");
+}
+
+@font-face {
+    font-family: NotoSansKR-Regular;
+    src: url("font/NotoSansKR-Regular.otf");
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("font/Lato-Regular.ttf");
+}
+
+.header {
+    margin-top: 30px;
+    margin-inline: 200px;
+    display: flex;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.mypage {
+    text-align: right;
+}
+
+.cart {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu1 a {
+    font-size: 14px;
+    font-family: Lato-Regular;
+}
+
+.sidenav a:hover{
+    color: #ffa345;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#dropdown-container {
+    display: none;
+    background-color: #ffffff;
+    padding-left: 8px;
+}

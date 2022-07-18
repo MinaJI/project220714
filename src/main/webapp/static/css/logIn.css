@@ -1,0 +1,73 @@
+@font-face {
+    font-family: apple;
+    src: url(font/AppleGaramond.ttf);
+}
+@font-face {
+    font-family: applebolditalic;
+    src: url(font/AppleGaramond-BoldItalic.ttf);
+}
+
+body {background-color: rgb(255, 255, 255);}
+
+#wrap {
+    background-color: rgb(255, 255, 255);
+    width: 100%; height: 100%;
+}
+#header {
+    background-color: rgb(255, 255, 255);
+    width: 100%; height: 140px;
+    line-height: 100%
+}
+#contents {
+    transform: translate(30%, 0%);
+}
+.font1 {
+    font-family: apple;
+    color: #000000;
+    font-size: 18px;
+}
+.font2 {
+    font-family: apple;
+    color: rgb(0, 0, 0);
+}
+.font3 {
+    font-family: applebolditalic;
+    color: #000000;
+    font-size: 50px;
+    text-align: left;
+    transform: translate( 30%, 100% );
+}
+
+.submitbtn {
+    background-color: #ffffff;
+    border-radius:28px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color: #000000;
+    font-family:apple;
+    font-size:13px;
+    padding:8px 10px;
+    text-decoration:none;
+}
+.submitbtn:hover {
+    background-color: #000000;
+    color: white;
+}
+.submitbtn:active {
+    position:relative;
+    top:1px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+}
+
+select {
+    border: 1px solid rgb(0, 0, 0);
+    background: none;
+}
