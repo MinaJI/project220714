@@ -19,7 +19,6 @@
     </div>
 </div>
 
-
 <div id="rightwrap">
     <div id="registerForm" class="font3">
         <form action="/user/register" method="post">

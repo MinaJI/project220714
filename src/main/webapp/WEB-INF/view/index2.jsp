@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="/static/css/nav.css">
     <script src="/static/js/index.js"></script>
 </head>
-<body><script>
-    location.href='<c:out value="${pageContext.request.contextPath}"/>${"/products/showAllIndex"}';
-</script>
+<body>
+<jsp:include page="nav.jsp"/>
+<jsp:include page="products/showAllIndex.jsp"/>
 </body>
 </html>
